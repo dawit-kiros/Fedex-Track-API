@@ -24,9 +24,9 @@ The FedEx Tracking API allows you to track shipments using FedEx services. This 
 
 **Access Swagger Documentation:** Users can access the Swagger documentation by navigating to `https://your-api-url/api-docs` in a web browser.
 
-
 ## Setting Up Environment Variables
 Before you can use the FedEx Tracking API, you need to set up environment variables to securely store your API credentials and authentication details. Create a `.env` file in the root directory of your project and define the following environment variables:
+
 
 **.env file:**
 ```plaintext
@@ -35,7 +35,7 @@ CLIENT_SECRET=your_client_secret
 GRANT_TYPE=client_credentials
 AUTH_URL = 'https://apis-sandbox.fedex.com/oauth/token'
 TRACKING_URL = 'https://apis-sandbox.fedex.com/track/v1/trackingnumbers'
-
+```
 
 ## Authorization
 The authorization process is handled by the `authorization.js` file, which retrieves an access token for your API requests. It makes a POST request to the FedEx authorization endpoint and uses the credentials stored in your environment variables.
@@ -46,6 +46,7 @@ To obtain an access token for your API requests, you can use the `getAPIAuthoriz
 import getAPIAuthorization from './authorization.js';
 
 const access_token = await getAPIAuthorization();
+```
 
 ## Tracking a Shipment
 To track a shipment, you can use the `trackByOrderNumber` function from the `trackAPI.js` file. This function requires the shipment's tracking number and retrieves tracking information. If an access token is not available, it will first obtain one using the authorization process.
@@ -63,6 +64,7 @@ if (trackingInfo) {
 } else {
   console.error('Failed to retrieve tracking information.');
 }
+```
 
 ## Request Format
 
