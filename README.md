@@ -16,7 +16,7 @@ The FedEx Tracking API allows you to track shipments using FedEx services. This 
 
 ## API Documentation(Swagger Documentation)
 
-**Access Swagger Documentation:** I have included Swagger documentation for this API, which can be accessed via the `/api-docs` endpoint. Swagger provides interactive documentation that allows users to explore and understand your API more easily.
+**Swagger Documentation:** I have included Swagger documentation for this API, which can be accessed via the `/api-docs` endpoint. Swagger provides interactive documentation that allows users to explore and understand your API more easily.
 
 **Endpoint for Swagger Documentation:** `/api-docs`
 
