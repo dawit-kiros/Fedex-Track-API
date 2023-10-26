@@ -12,7 +12,7 @@ The FedEx Tracking API allows you to track shipments using FedEx services. This 
 - [API Endpoint](#api-endpoint)
 - [Response Format](#response-format)
 - [Status Codes](#status-codes)
-- [API Key and Client Secret](#api-key-and-client-secret)
+
 
 ## API Documentation(Swagger Documentation)
 
