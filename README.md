@@ -4,7 +4,7 @@
 The FedEx Tracking API allows you to track shipments using FedEx services. This documentation provides clear instructions on how to use the API, including setting up environment variables, making requests, and understanding the response format and status codes.
 
 ## Table of Contents
-- [API Documentation] (#api-documentation)
+- [API Documentation](#api-documentation)
 - [Setting Up Environment Variables](#setting-up-environment-variables)
 - [Authorization](#authorization)
 - [Tracking a Shipment](#tracking-a-shipment)
