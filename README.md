@@ -4,6 +4,7 @@
 The FedEx Tracking API allows you to track shipments using FedEx services. This documentation provides clear instructions on how to use the API, including setting up environment variables, making requests, and understanding the response format and status codes.
 
 ## Table of Contents
+- [API Documentation] (#api-documentation)
 - [Setting Up Environment Variables](#setting-up-environment-variables)
 - [Authorization](#authorization)
 - [Tracking a Shipment](#tracking-a-shipment)
@@ -12,6 +13,17 @@ The FedEx Tracking API allows you to track shipments using FedEx services. This 
 - [Response Format](#response-format)
 - [Status Codes](#status-codes)
 - [API Key and Client Secret](#api-key-and-client-secret)
+
+## API Documentation (Swagger Documentation)
+
+**Access Swagger Documentation:** I have included Swagger documentation for this API, which can be accessed via the `/api-docs` endpoint. Swagger provides interactive documentation that allows users to explore and understand your API more easily.
+
+**Endpoint for Swagger Documentation:** `/api-docs`
+
+**Description:** The Swagger documentation provides a user-friendly interface for interacting with the API, including the ability to make test requests and explore the API's endpoints, request parameters, and responses.
+
+**Access Swagger Documentation:** Users can access the Swagger documentation by navigating to `https://your-api-url/api-docs` in a web browser.
+
 
 ## Setting Up Environment Variables
 Before you can use the FedEx Tracking API, you need to set up environment variables to securely store your API credentials and authentication details. Create a `.env` file in the root directory of your project and define the following environment variables:
